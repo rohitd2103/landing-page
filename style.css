@@ -92,11 +92,52 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #0A1828, #178582,#BFA181);
+    background: linear-gradient(to right, #0A1828, #032423,#0e0a06);
     font-size: 100px;
     color: #fff;
     font-weight: 700;
 }
 section:nth-child(odd) {
     background: linear-gradient(to right, #0A1828, #178582,#BFA181);
+}
+#developers{
+    background-image:#0A1828; 
+}
+.developers-container {
+    display: flex;
+    justify-content: center;
+}
+
+.developer {
+    text-align: center;
+    margin: 0 20px; /* Adjust the space between developers */
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.linkedin-icon {
+    position: absolute;
+    
+    transform:  translateX(121px);
+}
+
+.linkedin-icon img {
+    width: 50px;
+}
+.developer-name {
+    transform:  translateX(5px);
+    font-size: 50px;
+    margin-bottom: -20px;
+    margin-top: 10px; /* Add space between image and name */
 }
